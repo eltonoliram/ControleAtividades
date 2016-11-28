@@ -1,0 +1,35 @@
+﻿@model IEnumerable<ControleAtividades.Models.Atividade_mdl>
+@{
+    ViewBag.Title = "Atividades Acadêmicas";
+}
+
+<div class="jumbotron">
+    <h2>Controle suas atividades Aqui</h2>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <h2>Atividades Acadêmicas</h2>    
+    </div>
+</div>
+
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-2"><h3>@Html.DisplayNameFor(model => model.tipoAtividade)</h3></div>
+        <div class="col-md-3"><h3>@Html.DisplayNameFor(model => model.descricao)</h3></div>
+        <div class="col-md-2"><h3>@Html.DisplayNameFor(model => model.dataEntrega)</h3></div>
+        <div class="col-md-2"><h3>@Html.DisplayNameFor(model => model.status)</h3></div>
+        <div class="col-md-2"></div>
+    </div>
+
+    @foreach (var item in Model)
+    {
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-2">@Html.DisplayFor(modelitem => item.tipoAtividade)</div>
+            <div class="col-md-3">@Html.DisplayFor(modelitem => item.descricao)</div>
+            <div class="col-md-2">@Html.DisplayFor(modelitem => item.dataEntrega)</div>
+            <div class="col-md-2">@Html.DisplayFor(modelitem => item.status)</div>
+            <div class="col-md-2">@Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) | @Html.ActionLink("Deletar", "DeletaUsuario", new { id = item.id })</div>
+        </div>
+    }
