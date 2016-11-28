@@ -8,7 +8,7 @@ namespace ControleAtividades.Models
     {
         private List<Atividade_mdl> _ListaAtividades = new List<Atividade_mdl>();
         private String Erro;
-        private String conexao = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" + @"C:\Users\elton ramalho\Documents\Visual Studio 2015\Projects\ControleAtividades\ControleAtividades\obj\Debug\Academicos.accdb";
+        private String conexao = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source="+ @"C:\Users\elton ramalho\Documents\Visual Studio 2015\Projects\ControleAtividades\ControleAtividades\obj\Debug\Academicos.accdb";
         OleDbConnection conn = null;
 
         public Atividade()
@@ -88,7 +88,7 @@ namespace ControleAtividades.Models
 
         public List<Atividade_mdl> listarAtividades()
         {
-
+            String daaa = Environment.CurrentDirectory;
             _ListaAtividades.Clear();
             try
             {                

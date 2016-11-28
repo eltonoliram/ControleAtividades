@@ -102,3 +102,4 @@ C:\Users\elton ramalho\Documents\Visual Studio 2015\Projects\ControleAtividades\
 C:\Users\elton ramalho\Documents\Visual Studio 2015\Projects\ControleAtividades\ControleAtividades\bin\Newtonsoft.Json.xml
 C:\Users\elton ramalho\Documents\Visual Studio 2015\Projects\ControleAtividades\ControleAtividades\obj\Debug\ControleAtividades.dll
 C:\Users\elton ramalho\Documents\Visual Studio 2015\Projects\ControleAtividades\ControleAtividades\obj\Debug\ControleAtividades.pdb
+C:\Users\elton ramalho\Documents\Visual Studio 2015\Projects\ControleAtividades\ControleAtividades\obj\Debug\ControleAtividades.csprojResolveAssemblyReference.cache
