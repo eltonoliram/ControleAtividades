@@ -10,6 +10,11 @@ namespace ControleAtividades.Models
         public DateTime dataEntrega { get; set; }
         public Boolean status { get; set; }
 
+        public Atividade_mdl()
+        {
+
+        }
+
         public Atividade_mdl (Int32 _id,
                               String _tipoAtividade,
                               String _descricao,

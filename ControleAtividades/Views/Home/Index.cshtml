@@ -12,13 +12,14 @@
         <h2>Atividades Acadêmicas</h2>    
     </div>
 </div>
+<div class="row"><div class="col-md-2"> <p>@Html.ActionLink("Criar Atividade", "AdicionaAtividade")</p></div> </div>   
 
     <div class="row">
         <div class="col-md-1"></div>
-        <div class="col-md-2"><h3>@Html.DisplayNameFor(model => model.tipoAtividade)</h3></div>
-        <div class="col-md-3"><h3>@Html.DisplayNameFor(model => model.descricao)</h3></div>
-        <div class="col-md-2"><h3>@Html.DisplayNameFor(model => model.dataEntrega)</h3></div>
-        <div class="col-md-2"><h3>@Html.DisplayNameFor(model => model.status)</h3></div>
+        <div class="col-md-2"><h3>Atividade</h3></div>
+        <div class="col-md-3"><h3>Descrição</h3></div>
+        <div class="col-md-2"><h3>Data de Entrega</h3></div>
+        <div class="col-md-2"><h3>Status</h3></div>
         <div class="col-md-2"></div>
     </div>
 
@@ -30,6 +31,6 @@
             <div class="col-md-3">@Html.DisplayFor(modelitem => item.descricao)</div>
             <div class="col-md-2">@Html.DisplayFor(modelitem => item.dataEntrega)</div>
             <div class="col-md-2">@Html.DisplayFor(modelitem => item.status)</div>
-            <div class="col-md-2">@Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) | @Html.ActionLink("Deletar", "DeletaUsuario", new { id = item.id })</div>
+            <div class="col-md-2">@Html.ActionLink("Alterar", "Edit", new {}) | @Html.ActionLink("Apagar", "DeletaUsuario", new {  })</div>
         </div>
     }

@@ -11,5 +11,31 @@ namespace ControleAtividades.Controllers
         {
             return View(_Atividade.listarAtividades());
         }
+
+        public ActionResult AdicionaAtividade()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult AdicionaAtividade(Atividade_mdl _Atividade_mdl)
+        {
+            _Atividade.criaAtividade(_Atividade_mdl);
+            return View();
+        }
+
+
+        public ViewResult DeletaUsuario(Atividade_mdl _Atividade_mdl)
+        {
+            return View(_Atividade.apagaAtividade(_Atividade_mdl));
+
+        }
+
+        [HttpPost]
+        public RedirectToRouteResult DeletaUsuario(Atividade_mdl _Atividade_mdl, FormCollection collection)
+        {
+            _Atividade.apagaAtividade(_Atividade_mdl);
+            return RedirectToAction("Index");
+        }
     }
 }

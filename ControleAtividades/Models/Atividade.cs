@@ -22,11 +22,11 @@ namespace ControleAtividades.Models
             try
             {
                 conn = new OleDbConnection(conexao);
-                String sql = "INSERT TAREFAS (TIPOATIVIDADE,DESCRICAO,DATAPREVISTA,ENTREGUE )" +
-                             "VALUES(" + _Atividade_mdl.tipoAtividade.ToString() + "," +
-                                         _Atividade_mdl.descricao.ToString() + "," +
-                                         _Atividade_mdl.dataEntrega.ToString() + "," +
-                                         _Atividade_mdl.status.ToString() + ")";
+                String sql = "INSERT INTO TAREFAS (TIPOATIVIDADE,DESCRICAO,DATAPREVISTA,ENTREGUE )" +
+                             "VALUES( '" + _Atividade_mdl.tipoAtividade.ToString() + "'," +
+                                        "'" + _Atividade_mdl.descricao.ToString() + "'," +
+                                         "'"+_Atividade_mdl.dataEntrega.ToString() + "'," +
+                                          _Atividade_mdl.status.ToString() + ")";
 
                 conn = new OleDbConnection(conexao);
                 OleDbCommand cmd = new OleDbCommand(sql, conn);

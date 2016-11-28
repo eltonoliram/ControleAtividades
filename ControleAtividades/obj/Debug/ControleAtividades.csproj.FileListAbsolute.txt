@@ -100,6 +100,5 @@ C:\Users\elton ramalho\Documents\Visual Studio 2015\Projects\ControleAtividades\
 C:\Users\elton ramalho\Documents\Visual Studio 2015\Projects\ControleAtividades\ControleAtividades\bin\System.Web.WebPages.Razor.xml
 C:\Users\elton ramalho\Documents\Visual Studio 2015\Projects\ControleAtividades\ControleAtividades\bin\Antlr3.Runtime.pdb
 C:\Users\elton ramalho\Documents\Visual Studio 2015\Projects\ControleAtividades\ControleAtividades\bin\Newtonsoft.Json.xml
-C:\Users\elton ramalho\Documents\Visual Studio 2015\Projects\ControleAtividades\ControleAtividades\obj\Debug\ControleAtividades.csprojResolveAssemblyReference.cache
 C:\Users\elton ramalho\Documents\Visual Studio 2015\Projects\ControleAtividades\ControleAtividades\obj\Debug\ControleAtividades.dll
 C:\Users\elton ramalho\Documents\Visual Studio 2015\Projects\ControleAtividades\ControleAtividades\obj\Debug\ControleAtividades.pdb
